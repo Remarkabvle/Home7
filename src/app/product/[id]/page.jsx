@@ -26,7 +26,7 @@ const ProductDetail = () => {
         <div className="productDetailRight">
           <h3 className="productName">{product.name}</h3>
           <p className="productPrice">{product.price}</p>
-          <div className="quantityControl">
+          <div className="quantityControl" style={{marginTop: '10px'}}>
             <button onClick={() => setQuantity(q => Math.max(q - 1, 1))}>-</button>
             <span>{quantity}</span>
             <button onClick={() => setQuantity(q => q + 1)}>+</button>
