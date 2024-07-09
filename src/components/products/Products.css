@@ -1,0 +1,30 @@
+
+.products-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 57.6px;
+    color: #0B254B;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    line-height: 27.6px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #5E6E89;
+  }
+  
+  .productsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
